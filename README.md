@@ -13,32 +13,49 @@ The dataset includes various aspects of e-commerce operations:
 
 All sensitive information has been anonymized, and monetary values are in Brazilian Reals (BRL).
 
-## Project Structure
+## Updated Project Structure
 
 ```
 brazilian-e-commerce/
-├── data/
-│   └── raw/                     # Original CSV files
-├── sql/
-│   ├── schema/                  # Database structure
-│   │   ├── tables.sql          # Table definitions
-│   │   └── indexes.sql         # Index definitions
-│   ├── queries/                # Analysis queries
-│   │   ├── sales/             # Sales analysis
-│   │   ├── customers/         # Customer analysis
-│   │   ├── sellers/           # Seller analysis
-│   │   ├── orders/            # Order analysis
-│   │   ├── payments/          # Payment analysis
-│   │   └── reviews/           # Review analysis
-│   └── views/                  # Reusable views
-├── visualizations/            # Data visualizations
+├── .env                      # Environment variables
+├── .git/                     # Git repository metadata
+├── .gitattributes            # Git attributes configuration
+├── .gitignore                # Git ignore rules
+├── .vscode/                  # VS Code workspace settings
+├── README.md                 # Project documentation
+├── requirements.txt          # Python dependencies
+├── venv/                     # Python virtual environment
+├── data/                     # Raw data files
+│   └── raw/                  # Original CSV files
+├── docs/                     # Documentation
+│   ├── data_dictionary.md    # Field descriptions
+│   ├── queries.md            # Query documentation
+│   └── schema.md             # Schema documentation
+├── scripts/                  # Utility scripts
+│   └── load_data.sh          # Data loading script
+├── sql/                      # SQL scripts
+│   ├── queries/              # Analysis queries
+│   │   ├── customers/        # Customer analysis queries
+│   │   ├── orders/           # Order analysis queries
+│   │   ├── payments/         # Payment analysis queries
+│   │   ├── reviews/          # Review analysis queries
+│   │   ├── sales/            # Sales analysis queries
+│   │   └── sellers/          # Seller analysis queries
+│   ├── schema/               # Database structure
+│   │   ├── indexes.sql       # Index definitions
+│   │   └── tables.sql        # Table definitions
+│   └── views/                # Reusable views
+│       ├── customer_overview.sql
+│       ├── order_details.sql
+│       ├── payment_analysis.sql
+│       ├── review_metrics.sql
+│       ├── sales_overview.sql
+│       └── seller_performance.sql
+├── visualizations/           # Data visualizations
 │   ├── notebooks/            # Jupyter notebooks
 │   │   └── e_commerce_analysis.ipynb
-|       
-└── docs/                      # Documentation
-    ├── schema.md             # Schema documentation
-    ├── queries.md            # Query documentation
-    └── data_dictionary.md    # Field descriptions
+│   └── plots/                # Generated plots
+└── LICENSE                   # License information
 ```
 
 ## Getting Started
