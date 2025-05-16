@@ -13,7 +13,7 @@ The dataset includes various aspects of e-commerce operations:
 
 All sensitive information has been anonymized, and monetary values are in Brazilian Reals (BRL).
 
-## Updated Project Structure
+## Project Structure
 
 ```
 brazilian-e-commerce/
@@ -130,67 +130,6 @@ Reports will be generated in the `reports/` directory, organized by date.
   - Review sentiment analysis
   - Response time metrics
   - Product category satisfaction levels
-
-## Visualization
-
-The project includes two types of visualizations:
-
-### 1. Jupyter Notebook Visualizations
-
-The project includes comprehensive data visualizations created using Python and Jupyter notebooks:
-
-#### Setup Visualization Environment
-
-1. Install Python dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Start Jupyter notebook:
-   ```bash
-   cd visualizations/notebooks
-   jupyter notebook
-   ```
-
-#### Available Visualizations
-
-1. **Sales Analysis**
-   - Monthly sales trends
-   - Category performance
-   - Revenue distribution
-   - Year-over-year growth
-
-2. **Customer Analysis**
-   - Geographic distribution
-   - Purchase frequency
-   - Customer retention
-   - Lifetime value analysis
-
-3. **Seller Analysis**
-   - Performance metrics
-   - Geographic distribution
-   - Revenue rankings
-   - Delivery efficiency
-
-4. **Order Analysis**
-   - Delivery time distribution
-   - Order status breakdown
-   - Fulfillment rates
-   - Seasonal patterns
-
-5. **Payment Analysis**
-   - Payment method distribution
-   - Installment patterns
-   - Transaction value trends
-   - Regional preferences
-
-6. **Review Analysis**
-   - Score distribution
-   - Response time analysis
-   - Sentiment trends
-   - Category satisfaction
-
-All visualizations are interactive and can be modified or extended as needed.
 
 ## Contributing
 
