@@ -1,0 +1,43 @@
+# Ignore Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS system files
+.DS_Store
+
+# Environment variables
+.env
+*.env
+
+# Egg, log, and coverage files
+*.egg-info/
+*.egg
+*.log
+*.coverage
+*.cover
+
+# Databases
+*.sqlite3
+*.db
+*.db-journal
+
+# IPython and Jupyter
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Ignore data/raw directory
+data/raw/
+*.csv
